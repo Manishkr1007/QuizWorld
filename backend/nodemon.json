@@ -1,0 +1,11 @@
+{
+    "env":{
+      "CONNECTION_STRING":"mongodb+srv://manishkr061210:735277manish@cluster0.mkfxe.mongodb.net/QuizDataBase?retryWrites=true&w=majority&appName=Cluster0",
+        "PORT": 3000
+    },
+    
+      "watch": ["src"],
+      "exec":"ts-node ./src/app.ts",
+      "ext": "ts,json"
+    
+}
