@@ -25,8 +25,8 @@
     "typescript": "^5.6.2"
   },
   "scripts": {
-    "start": "node ./src/app.ts",
-    "build": "yarn tsc",
+    "start": "node ./dist/app.js",
+    "build": "yarn tsc && git status && git add .",
     "start-ts": "yarn ts-node ./src/app.ts",
     "dev": "yarn nodemon ./src/app.ts"
   },
