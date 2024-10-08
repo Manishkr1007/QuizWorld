@@ -11,6 +11,7 @@ const quizData = {
   //   { question: "What is 3 * 3?", options: ["6", "7", "9", "10"], correctAnswer: "9" },
   // ],
   physic: [
+    
     {
       question: "The commercial unit of electrical energy is .........",
       options: ["Watt", "Calorie", "Kilowatt hour", "Joule"],
@@ -60,7 +61,309 @@ const quizData = {
       question: "What is measured in 'joules'?",
       options: ["Energy", "Velocity", "Force", "Power"],
       correctAnswer: "Energy",
+    }, {
+      question: "Which energy of the wind does a windmill use?",
+      options: ["Thermal energy", "Kinetic energy", "Heat energy", "Hydro energy"],
+      correctAnswer: "Kinetic energy",
     },
+    {
+      question: "If the air resistance is negligible, what will be the sum of the potential and kinetic energy of a freely falling object?",
+      options: ["Endless", "Double the sum of the potential energy", "Zero", "Constant"],
+      correctAnswer: "Constant",
+    },
+    {
+      question: "A uniform chain of length 2m is kept on a table such that 60cm hangs freely from the edge. The total mass is 4kg. What is the work done in pulling the entire chain on the table?",
+      options: ["12J", "7.2J", "3.6J", "1.2J"],
+      correctAnswer: "3.6J",
+    },
+    {
+      question: "Which particles have a greater kinetic energy?",
+      options: ["Liquid", "Plasma", "Solid", "Gas"],
+      correctAnswer: "Gas",
+    },
+    {
+      question: "The kinetic energy of which particle is maximum?",
+      options: ["Liquid and Solid", "Solid", "Liquid", "Gases"],
+      correctAnswer: "Gases",
+    },
+    {
+      question: "When a compressed spring is released, it converts its potential energy into:",
+      options: ["Mechanical energy", "Wind power", "Elastic potential energy", "Kinetic energy"],
+      correctAnswer: "Kinetic energy",
+    },
+    {
+      question: "The potential energy of an object increases with its:",
+      options: ["Velocity", "Height", "Displacement", "Distance"],
+      correctAnswer: "Height",
+    },
+    {
+      question: "Which of the following energy varies with the height of an object?",
+      options: ["Kinetic energy", "Nuclear Energy", "Chemical energy", "Potential energy"],
+      correctAnswer: "Potential energy",
+    },
+    {
+      question: "What is the energy exerted due to the position and shape taken by an object?",
+      options: ["Latent energy", "Potential energy", "Kinetic energy", "Electrical energy"],
+      correctAnswer: "Potential energy",
+    },
+    {
+      question: "Which energy is in the water stored in a dam?",
+      options: ["Potential energy", "Electric energy", "Kinetic energy", "Gravitational energy"],
+      correctAnswer: "Potential energy",
+    },
+    {
+      question: "A moving object essentially receives:",
+      options: ["Kinetic energy", "Potential energy", "Mechanical energy", "Thermal energy"],
+      correctAnswer: "Kinetic energy",
+    },
+    {
+      question: "A car running at high speed, which energy does it contain?",
+      options: ["Gravitational force", "Friction force", "Potential energy", "Kinetic energy"],
+      correctAnswer: "Kinetic energy",
+    },
+    {
+      question: "Which of the following energy is always positive?",
+      options: ["Static energy", "Kinetic energy", "Potential energy", "Gravitational energy"],
+      correctAnswer: "Kinetic energy",
+    },
+    {
+      question: "The commercial unit of electrical energy is .........",
+      options: ["Watt", "Calorie", "Kilowatt hour", "Joule"],
+      correctAnswer: "Kilowatt hour",
+    },
+    {
+      question: "An 8 kg iron ball and a 3 kg aluminum ball are dropped from a height of 20 meters. Which quantity will be the same in both at 10 m height from the ground?",
+      options: ["Kinetic energy", "Acceleration", "Potential energy", "Momentum"],
+      correctAnswer: "Acceleration",
+    },
+    {
+      question: "When a compressed slinky (spring) is released, it changes the potential energy into?",
+      options: ["Mechanical energy", "Kinetic energy", "Heat energy", "Chemical energy"],
+      correctAnswer: "Kinetic energy",
+    },
+    {
+      question: "What is the energy in a compressed spring?",
+      options: ["Potential", "Chemical", "Kinetic", "Electric"],
+      correctAnswer: "Potential",
+    },
+    {
+      question: "By which does the kinetic energy of an object increase?",
+      options: ["Friction", "Time", "Mass", "Speed"],
+      correctAnswer: "Speed",
+    },
+    {
+      question: "The kinetic energy of a moving object depends on:",
+      options: ["Weight and its location", "Mass and its location", "Mass and momentum", "Mass and velocity"],
+      correctAnswer: "Mass and velocity",
+    },
+    {
+      question: "In hydropower, what is the energy that is converted into electrical energy?",
+      options: ["Mechanical energy", "Potential energy", "Heat energy", "Kinetic energy"],
+      correctAnswer: "Kinetic energy",
+    },
+ 
+      {
+        question: "Which energy of the wind does a windmill use?",
+        options: [
+          "Thermal energy",
+          "Kinetic energy",
+          "Heat energy",
+          "Hydro energy"
+        ],
+        ans: 1,
+      },
+      {
+        question: "If the air resistance is negligible, what will be the sum of the potential and kinetic energy of a freely falling object?",
+        options: [
+          "Endless",
+          "Double the sum of the potential energy",
+          "Zero",
+          "Constant"
+        ],
+        ans: 3,
+      },
+      {
+        question: "A uniform chain of length 2m is kept on a table such that 60cm hangs freely from the edge. The total mass is 4kg. What is the work done in pulling the entire chain on the table?",
+        options: [
+          "12J",
+          "7.2J",
+          "3.6J",
+          "1.2J"
+        ],
+        ans: 2,
+      },
+      {
+        question: "Which particles have a greater kinetic energy?",
+        options: [
+          "Liquid",
+          "Plasma",
+          "Solid",
+          "Gas"
+        ],
+        ans: 3,
+      },
+      {
+        question: "The kinetic energy of which particle is maximum?",
+        options: [
+          "Liquid and Solid",
+          "Solid",
+          "Liquid",
+          "Gases"
+        ],
+        ans: 3,
+      },
+      {
+        question: "When a compressed spring is released, it converts its potential energy into:",
+        options: [
+          "Mechanical energy",
+          "Wind power",
+          "Elastic potential energy",
+          "Kinetic energy"
+        ],
+        ans: 3,
+      },
+      {
+        question: "The potential energy of an object increases with its:",
+        options: [
+          "Velocity",
+          "Height",
+          "Displacement",
+          "Distance"
+        ],
+        ans: 2,
+      },
+      {
+        question: "Which of the following energy varies with the height of an object?",
+        options: [
+          "Kinetic energy",
+          "Nuclear Energy",
+          "Chemical energy",
+          "Potential energy"
+        ],
+        ans: 3,
+      },
+      {
+        question: "What is the energy exerted due to the position and shape taken by an object?",
+        options: [
+          "Latent energy",
+          "Potential energy",
+          "Kinetic energy",
+          "Electrical energy"
+        ],
+        ans: 1,
+      },
+      {
+        question: "Which energy is in the water stored in a dam?",
+        options: [
+          "Potential energy",
+          "Electric energy",
+          "Kinetic energy",
+          "Gravitational energy"
+        ],
+        ans: 0,
+      },
+      {
+        question: "A moving object essentially receives:",
+        options: [
+          "Kinetic energy",
+          "Potential energy",
+          "Mechanical energy",
+          "Thermal energy"
+        ],
+        ans: 0,
+      },
+      {
+        question: "A car running at high speed, which energy does it contain?",
+        options: [
+          "Gravitational force",
+          "Friction force",
+          "Potential energy",
+          "Kinetic energy"
+        ],
+        ans: 3,
+      },
+      {
+        question: "Which of the following energy is always positive?",
+        options: [
+          "Static energy",
+          "Kinetic energy",
+          "Potential energy",
+          "Gravitational energy"
+        ],
+        ans: 1,
+      },
+      {
+        question: "The commercial unit of energy is:",
+        options: [
+          "Kilowatt-hour",
+          "Kilowatt",
+          "Joule",
+          "Watt-hour"
+        ],
+        ans: 0,
+      },
+      {
+        question: "An 8 kg iron ball and a 3 kg aluminum ball are dropped from a height of 20 meters. Which quantity will be the same in both at 10 m height from the ground?",
+        options: [
+          "Kinetic energy",
+          "Acceleration",
+          "Potential energy",
+          "Momentum"
+        ],
+        ans: 1,
+      },
+      {
+        question: "When a compressed slinky (spring) is released, it changes the potential energy into?",
+        options: [
+          "Mechanical energy",
+          "Kinetic energy",
+          "Heat energy",
+          "Chemical energy"
+        ],
+        ans: 1,
+      },
+      {
+        question: "What is the energy in a compressed spring?",
+        options: [
+          "Potential",
+          "Chemical",
+          "Kinetic",
+          "Electric"
+        ],
+        ans: 0,
+      },
+      {
+        question: "By which does the kinetic energy of an object increase?",
+        options: [
+          "Friction",
+          "Time",
+          "Mass",
+          "Speed"
+        ],
+        ans: 3,
+      },
+      {
+        question: "The kinetic energy of a moving object depends on:",
+        options: [
+          "Weight and its location",
+          "Mass and its location",
+          "Mass and momentum",
+          "Mass and velocity"
+        ],
+        ans: 3,
+      },
+      {
+        question: "In hydropower, what is the energy that is converted into electrical energy?",
+        options: [
+          "Mechanical energy",
+          "Potential energy",
+          "Heat energy",
+          "Kinetic energy"
+        ],
+        ans: 3,
+      },
+    
+    
   ],
   // history: [
   //   { question: "Who was the first President of the USA?", options: ["George Washington", "John Adams", "Abraham Lincoln", "Thomas Jefferson"], correctAnswer: "George Washington" },
